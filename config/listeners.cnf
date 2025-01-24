@@ -5,12 +5,12 @@
     <record name="HTTPSListener@8443" javaclass="com.wm.util.Values">
       <number name="port" type="Integer">8443</number>
       <value name="protocol">HTTPS</value>
-      <value name="pkg">IntegrationPort</value>
+      <value name="pkg">WmServiceServingCertPort</value>
       <value name="enabled">true</value>
       <value name="key">HTTPSListener@8443</value>
       <value name="uniqueID">1cf1a029914341378a1e2a356c89a03a</value>
-      <value name="portAlias">Integrations</value>
-      <value name="portDescription">Port for runtime traffic</value>
+      <value name="portAlias">ServiceServingCert</value>
+      <value name="portDescription">Port that uses the OpenShift service serving certs</value>
       <value name="factoryKey">webMethods/HTTP</value>
       <value name="configURL">/WmRoot/configHTTP.dsp</value>
       <value name="provider">webMethods</value>
@@ -25,7 +25,7 @@
       <value name="stepsize">10000</value>
       <value name="suspended">false</value>
       <value name="alias">1</value>
-      <value name="keyStore">serviceCerts</value>
+      <value name="keyStore">serviceServingCert</value>
       <value name="trustStore">DEFAULT_IS_TRUSTSTORE</value>
       <null name="jsseDisabledProtocols"/>
       <null name="jsseEnabledProtocols"/>
