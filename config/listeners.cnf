@@ -24,8 +24,8 @@
       <value name="curDelay">0</value>
       <value name="stepsize">10000</value>
       <value name="suspended">false</value>
-      <value name="alias">ssos</value>
-      <value name="keyStore">DEFAULT_IS_KEYSTORE</value>
+      <value name="alias">1</value>
+      <value name="keyStore">serviceCerts</value>
       <value name="trustStore">DEFAULT_IS_TRUSTSTORE</value>
       <null name="jsseDisabledProtocols"/>
       <null name="jsseEnabledProtocols"/>
